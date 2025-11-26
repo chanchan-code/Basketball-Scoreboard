@@ -1,0 +1,62 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(#0000FF,#0096FF );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center; 
+    
+}
+
+h3 {
+    color: #fff;
+    text-shadow: #4f9ef9 0px 0px 5px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    border: #fff 2px solid;
+    border-radius: 20px;
+    padding: 40px 20px 60px 20px;
+}
+
+.scoreboard {
+    background-color: #080001;
+    border: #fff 2px solid;
+    border-radius: 15px;
+    height: 150px;
+    width: 250px;
+    margin: 0px auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons-properties  {
+    font-size: 10px;
+    width: 80px;
+    padding: 10px 5px;
+    margin: 20px 5;
+}
+
+#player1, #player2 {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 50px;
+    color: #F94F6D;
+}
+
+#add1to1, #add2to1, #add3to1, #add1to2, #add2to2, #add3to2 {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius: 10px;
+    border: none;
+    background-color: #4f9ef9;
+    color: white;
+    cursor: pointer;
+}
